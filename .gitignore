@@ -1,0 +1,27 @@
+# Dependencies and build output
+frontend/node_modules/
+frontend/dist/
+backend/target/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Unrelated files in the project folder
+/im
+/images.jpg
+/passport.pdf
+/placeproj
+/pro.html
+/PaymentReceipt.pdf
